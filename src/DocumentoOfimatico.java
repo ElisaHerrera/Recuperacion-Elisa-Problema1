@@ -26,5 +26,13 @@ public class DocumentoOfimatico {
     public void setTamano(Tamano tamano) {
         this.tamano = tamano;
     }
+
+    @Override
+    public String toString() {
+        return "DocumentoOfimatico{" +
+                "nombre='" + nombre + '\'' +
+                ", tamano=" + tamano +
+                '}';
+    }
 }
 

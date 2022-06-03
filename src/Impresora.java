@@ -6,8 +6,21 @@ public class Impresora {
         ENCEDIDO
     }
     public class ColadeImpresion{
-        private ArrayList<String> lista = new ArrayList<String>();
+        ArrayList<String>ColadeImpresion = new ArrayList<String>(5);
 
+        public void push(String elemento){
+            ColadeImpresion.add(0,elemento);
+        }
 
+        public String pop(){
+            return ColadeImpresion.remove(0);
+        }
+
+    }
+
+    @Override
+    public String toString() {
+
+        return toString();
     }
 }
